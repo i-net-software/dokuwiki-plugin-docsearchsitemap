@@ -21,7 +21,7 @@ class action_plugin_docsearchsitemap extends DokuWiki_Action_Plugin {
 	/**
 	 * Register to the content display event to place the results under it.
 	 */
-	function register(&$controller) {
+	function register(Doku_Event_Handler $controller) {
 		$controller->register_hook('SITEMAP_GENERATE', 'BEFORE', $this, 'runSitemapper', array());
 	}
 
