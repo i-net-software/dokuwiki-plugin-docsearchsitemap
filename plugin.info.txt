@@ -1,7 +1,7 @@
 base    docsearchsitemap
 author  Gerry Weissbach
 email     gweissbach@inetsoftware.de
-date     2014-07-15
+date     2017-05-15
 name     DocSearch Sitemap
 desc     Create an additional Sitemap for documents found by the docsearch plugin  
 url     https://github.com/i-net-software/dokuwiki-plugin-docsearchsitemap
