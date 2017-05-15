@@ -16,7 +16,7 @@ require_once(DOKU_INC . 'inc/fulltext.php');
 
 class action_plugin_docsearchsitemap extends DokuWiki_Action_Plugin {
 
-	var $data = array();
+	private $data = array();
 
 	/**
 	 * Register to the content display event to place the results under it.
